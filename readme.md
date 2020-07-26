@@ -127,3 +127,24 @@ SHOW        /dogs/:id   GET         Shows info about one dog
 * Show example of RESTful routing in practice
 
 REST - a mapping between HTTP routes and CRUD
+
+```
+CREATE
+READ
+UPDATE
+DESTROY
+```
+
+A table of all 7 RESTful routes
+
+```
+Name    Path            Verb    Purpose
+===============================================================================
+index   /dogs           GET     List all dogs
+new     /dogs/new       GET     Show new dog form
+create  /dogs           POST    Create a new dog, then redirect somewhere
+show    /dogs/:id       GET     Show info about one specific dog
+edit    /dogs/:id/edit  GET     Show edit form for one dog
+update  /dogs/:id       PUT     Update a particular dog then redirect somewhere
+destroy /dogs/:id       DELETE  Delete a particular dog then redirect somewhere
+```

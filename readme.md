@@ -95,11 +95,13 @@ This repository includes all of my progress for following Colt Steele's The Web 
 ## Section 30: YelpCamp Data Persistence
 
 ### Add Mongoose
+
 * Install and configure Mongoose
 * Setup campground model
 * Use campground model inside of our routes
 
 ### Show Page
+
 * Review the RESTful routes we've seen so far
 * Add description to our campground model
 * Show db.collection.drop()
@@ -122,11 +124,12 @@ SHOW        /dogs/:id   GET         Shows info about one dog
 ## Section 31: RESTful Routing
 
 ### Introduction
+
 * Define REST and explain WHY it matters
 * List all 7 RESTful routes
 * Show example of RESTful routing in practice
 
-REST - a mapping between HTTP routes and CRUD
+REST - a mapping between HTTP routes and CRUD which stands for
 
 ```
 CREATE
@@ -148,3 +151,16 @@ edit    /dogs/:id/edit  GET     Show edit form for one dog
 update  /dogs/:id       PUT     Update a particular dog then redirect somewhere
 destroy /dogs/:id       DELETE  Delete a particular dog then redirect somewhere
 ```
+
+### Blog Index
+
+* Setup the Blog App
+* Create the Blog model
+* Add INDEX route and template
+* Add Simple Nav Bar
+
+### Basic Layout
+
+* Add Header and Footer Partials
+* Include Semantic UI
+* Add Simple Nav

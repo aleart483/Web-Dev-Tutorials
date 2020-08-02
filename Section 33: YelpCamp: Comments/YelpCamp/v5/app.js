@@ -16,6 +16,7 @@ mongoose.connect('mongodb://localhost:27017/yelp_camp_v3', {
 
 // APP CONFIG
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(__dirname + "/public"));
 app.use(methodOverride('_method'));
 app.use(express.static('public'));
 app.use(expressSanitizer());

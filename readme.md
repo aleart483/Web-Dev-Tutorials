@@ -248,3 +248,14 @@ destroy /dogs/:id       DELETE  Delete a particular dog then redirect somewhere
 
 * Add side bar to show page
 * Display comments nicely
+
+### Finish Styling Show Page
+
+* Add public directory
+* Add custom stylesheet
+
+
+
+
+
+## Section 34: Authentication

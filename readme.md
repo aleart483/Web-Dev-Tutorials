@@ -197,3 +197,21 @@ destroy /dogs/:id       DELETE  Delete a particular dog then redirect somewhere
 * Sanitize blog body
 * Style Index
 * Update REST Table
+
+
+
+
+
+## Section 32: Data Associations
+
+### Intro to Associations
+
+* Define associations
+* Discuss one:one, one:many, and many:many relationships
+
+### Referencing Data
+
+### Module.Exports
+
+* Introduce module.exports
+* Move our models into separate files

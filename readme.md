@@ -164,3 +164,36 @@ destroy /dogs/:id       DELETE  Delete a particular dog then redirect somewhere
 * Add Header and Footer Partials
 * Include Semantic UI
 * Add Simple Nav
+
+### Putting the C in CRUD
+
+* Add new route
+* Add new template
+* Add create route
+* Add create template
+
+### SHOWtime
+
+* Add show route
+* Add show template
+* Add links to show page
+* Style show template
+
+### Edit/Update
+
+* Add edit route
+* Add edit form
+* Add update route
+* Add update form
+* Add Method-Override
+
+### DESTROYYYYYY
+
+* Add destroy route
+* Add edit and destroy links
+
+### Final Updates
+
+* Sanitize blog body
+* Style Index
+* Update REST Table
